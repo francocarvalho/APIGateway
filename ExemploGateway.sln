@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.WebAPI", "ExemploGateway\Product.WebAPI.csproj", "{89B66FF1-FF9C-4FF8-94BE-1D6059AE6183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payment.WebAPI", "Payment.WebAPI\Payment.WebAPI.csproj", "{D38997F6-7B9C-42E4-A88C-A1F5B9774195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.WebAPI", "Payment.WebAPI\Payment.WebAPI.csproj", "{D38997F6-7B9C-42E4-A88C-A1F5B9774195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotAPIGateway", "OcelotAPIGateway\OcelotAPIGateway.csproj", "{66CAED3C-F350-4DA3-9E7E-B491E664D8EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotAPIGateway", "OcelotAPIGateway\OcelotAPIGateway.csproj", "{66CAED3C-F350-4DA3-9E7E-B491E664D8EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.WebAPI", "Product.WebAPI\Product.WebAPI.csproj", "{37C0B00E-4BFF-490A-99EE-CE046A5AE0BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89B66FF1-FF9C-4FF8-94BE-1D6059AE6183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89B66FF1-FF9C-4FF8-94BE-1D6059AE6183}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89B66FF1-FF9C-4FF8-94BE-1D6059AE6183}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89B66FF1-FF9C-4FF8-94BE-1D6059AE6183}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D38997F6-7B9C-42E4-A88C-A1F5B9774195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D38997F6-7B9C-42E4-A88C-A1F5B9774195}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D38997F6-7B9C-42E4-A88C-A1F5B9774195}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{66CAED3C-F350-4DA3-9E7E-B491E664D8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66CAED3C-F350-4DA3-9E7E-B491E664D8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66CAED3C-F350-4DA3-9E7E-B491E664D8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C0B00E-4BFF-490A-99EE-CE046A5AE0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C0B00E-4BFF-490A-99EE-CE046A5AE0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C0B00E-4BFF-490A-99EE-CE046A5AE0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C0B00E-4BFF-490A-99EE-CE046A5AE0BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
